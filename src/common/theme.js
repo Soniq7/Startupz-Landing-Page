@@ -33,7 +33,7 @@ export const theme = {
             shadowCream: colorCollection.indianKhaki,
         },
         background: {
-            backgroundGrey: colorCollection,oxfordBlue,
+            backgroundGrey: colorCollection.oxfordBlue,
             backgroundWhite: colorCollection.white,
             backgroundCream: colorCollection.hintOfRed,
             backgroundTeal: colorCollection.pelorous,
