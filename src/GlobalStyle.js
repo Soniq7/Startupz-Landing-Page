@@ -13,5 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         line-height: 1.5;
         font-family: "Circular Std", sans-serif;
         color: ${({theme}) => theme.colors.text.primaryText};
+        background: ${({theme}) => theme.colors.background.backgroundWhite};
     }
 `;
