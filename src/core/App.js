@@ -1,13 +1,12 @@
+import React from "react";
+import Conatiner from "../common/Container";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Example text.</p>
-        
-      </header>
-    </div>
+    <Conatiner>
+      
+    </Conatiner>
   );
 }
 
