@@ -6,10 +6,10 @@ const Main = styled.main`
     padding: 20px;
 `;
 
-const Conatiner = ({ children }) => (
+const Container = ({ children }) => (
     <Main>
         {children}
     </Main>
 );
 
-export default Conatiner;
+export default Container;
