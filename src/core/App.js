@@ -19,13 +19,13 @@ function App() {
           </p>
           <div>
             <table>
-              <thread>
+              <thead>
                 <tr>
                   <th>01</th>
                   <th>02</th>
                   <th>03</th>
                 </tr>
-              </thread>
+              </thead>
               <tbody>
                 <tr>
                   <td>We develop innovative products, systems and services</td>
@@ -43,20 +43,20 @@ function App() {
           <h2>Our core values</h2>
           <div>
             <table>
-              <thread>
+              <thead>
                 <tr>
                   <th>01. Innovation</th>
                   <th>02. People</th>
                 </tr>
-              </thread>
+              </thead>
               <tbody>
                 <tr>
                   <td>
                     Startupz operates where entrepreneurship and technology
-                    intersect. We design solutions and turn them into businesses
+                    intersect. We design solutions and turn them into business
                     models.
                   </td>
-                  <td>Talent is what enable us to create great companies.</td>
+                  <td>Talent is what enables us to create great companies.</td>
                 </tr>
               </tbody>
             </table>
@@ -108,7 +108,10 @@ function App() {
         </section>
         <section>
           <h2>We are hiring!</h2>
-          <p>We're always looking for talented people to join and help build our startups. Check out our current openings</p>
+          <p>
+            We're always looking for talented people to join and help build our
+            startups. Check out our current openings
+          </p>
           <button>See current openings</button>
         </section>
         <section>
@@ -116,15 +119,9 @@ function App() {
             <h2>Are you ready to board this rocket ship?</h2>
             <h3>Share your excitement with us.</h3>
             <form>
-              <input
-              placeholder="Name*"
-              />
-              <input 
-              placeholder="Email*"
-              />
-              <input 
-              placeholder="Message*"
-              />
+              <input placeholder="Name*" />
+              <input placeholder="Email*" />
+              <input placeholder="Message*" />
               <button>Shoot us a message</button>
             </form>
           </div>
@@ -133,14 +130,21 @@ function App() {
           <p>© 2020 Startupz. All rights reserved.</p>
           <aside>
             <h2>Companies</h2>
-            <p>Tolq <br />LegalSite <br />Codekeeper <br />Feedback Labs</p>
+            <p>
+              Tolq <br />
+              LegalSite <br />
+              Codekeeper <br />
+              Feedback Labs
+            </p>
             <h2>Contact</h2>
-            <p>World Trade Center - The Hague Prinses Margrietplantsoen 33 2595 AM The Hague The Netherlands</p>
+            <p>
+              World Trade Center - The Hague Prinses Margrietplantsoen 33 2595
+              AM The Hague The Netherlands
+            </p>
             <p>Send us an email</p>
             <h2>Follow us</h2>
             <img />
           </aside>
-
         </footer>
       </>
     </Container>
