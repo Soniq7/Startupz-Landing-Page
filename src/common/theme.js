@@ -10,6 +10,8 @@ const colorCollection = {
     hintOfRed: "#FBFAFA",
     indianKhaki: "#BBA98E",
     texasRose: "#FFC351",
+    concrete: "#F3F3F3",
+    desertStorm: "#FBFBFA"
 };
 
 export const theme = {
@@ -23,11 +25,13 @@ export const theme = {
             textLightBlue: colorCollection.glacier,
             textBlue: colorCollection.bondiBlue,
             textPurple: colorCollection.trueV,
+            textMessageButton: colorCollection.desertStorm,
 
         },
         border: {
             borderBlue: colorCollection.pelorous,
             borderOrange: colorCollection.coral,
+            borderGrey: colorCollection.oxfordBlue,
         },
         shadow: {
             shadowCream: colorCollection.indianKhaki,
@@ -38,6 +42,13 @@ export const theme = {
             backgroundCream: colorCollection.hintOfRed,
             backgroundTeal: colorCollection.pelorous,
             backgroundYellow: colorCollection.texasRose,
+            backgroundForm: colorCollection.concrete,
         }
+    },
+    breakpoint: {
+        mobile: 767,
+        tabletVertical: 960,
+        tabletHorizontal: 1420,
+
     },
 };

@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "../common/Container";
+import Form from "../features/Form";
+import SectionForm from "../common/SectionForm";
 
 function App() {
   return (
@@ -114,18 +116,11 @@ function App() {
           </p>
           <button>See current openings</button>
         </section>
-        <section>
-          <div>
-            <h2>Are you ready to board this rocket ship?</h2>
-            <h3>Share your excitement with us.</h3>
-            <form>
-              <input placeholder="Name*" />
-              <input placeholder="Email*" />
-              <input placeholder="Message*" />
-              <button>Shoot us a message</button>
-            </form>
-          </div>
-        </section>
+        <SectionForm 
+          title="Are you ready to board this rocket ship?"
+          headerContent="Share your excitement with us."
+          body={<Form />}
+        />
         <footer>
           <p>© 2020 Startupz. All rights reserved.</p>
           <aside>

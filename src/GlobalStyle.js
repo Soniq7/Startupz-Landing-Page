@@ -14,5 +14,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Circular Std", sans-serif;
         color: ${({theme}) => theme.colors.text.primaryText};
         background: ${({theme}) => theme.colors.background.backgroundWhite};
+        overflow-wrap: anywhere;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
     }
 `;
