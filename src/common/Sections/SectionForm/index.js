@@ -1,5 +1,5 @@
 import { StyledSection, Header, Title, Body, StyledImage } from "./styled";
-import rocketShipSVG from "../images/rocketShip.svg";
+import rocketShipSVG from "../../images/rocketShip.svg";
 
 
 const SectionForm = ({ title, body, headerContent }) => (

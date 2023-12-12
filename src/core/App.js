@@ -1,17 +1,19 @@
 import React from "react";
 import Container from "../common/Container";
 import Form from "../features/Form";
-import SectionForm from "../common/SectionForm";
+import SectionForm from "../common/Sections/SectionForm";
+import SectionMain from "../common/Sections/SectionMain";
+import ButtonTeal from "../features/Buttons/ButtonTeal";
 
 function App() {
   return (
     <Container>
       <>
-        <section>
-          <h1>We Create Startups.</h1>
-          <p>We are startup studio that develops and launches new companies.</p>
-          <button>See our works</button>
-        </section>
+        <SectionMain
+          title="We Create Startups."
+          headerContent="We are startup studio that develops and launches new companies."
+          body={<ButtonTeal buttonContent="See our works" />}
+        />
         <section>
           <h2>Who we are</h2>
           <p>
@@ -116,7 +118,7 @@ function App() {
           </p>
           <button>See current openings</button>
         </section>
-        <SectionForm 
+        <SectionForm
           title="Are you ready to board this rocket ship?"
           headerContent="Share your excitement with us."
           body={<Form />}

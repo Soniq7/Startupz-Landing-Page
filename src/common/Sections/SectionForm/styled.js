@@ -32,6 +32,11 @@ export const Title = styled.h2`
     font-size: 60px;
     line-height: 55px;
     margin: 50px 0px 30px 0px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.tabletVertical}px) {
+      font-size: 50px;
+      line-height: 45px;
+    }
 `;
 
 export const Body = styled.div`
