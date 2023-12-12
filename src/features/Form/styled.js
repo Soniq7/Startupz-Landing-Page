@@ -11,6 +11,8 @@ export const StyledForm = styled.form`
   padding-top: 65px;
   background-color: ${({ theme }) => theme.colors.background.backgroundForm};
   border-radius: 10px;
+  position: relative;
+  z-index: 1;
 
   @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
     margin: auto;

@@ -9,7 +9,7 @@ export const StyledSection = styled.section`
     @media (max-width: ${({theme}) => theme.breakpoint.tabletVertical}px) {
     margin: auto;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 76px;
   }
 
 `;
@@ -31,7 +31,7 @@ export const Header = styled.header`
 export const Title = styled.h2`
     font-size: 60px;
     line-height: 55px;
-    font-weight: bold;
+    margin: 50px 0px 30px 0px;
 `;
 
 export const Body = styled.div`
@@ -41,9 +41,7 @@ export const Body = styled.div`
 export const StyledImage = styled.img`
     position: absolute;
     left: 75%;
-    transform: translateX(-55%) translateY(20.5%);
-
-  @media (max-width: ${({theme}) => theme.breakpoint.tabletHorizontal}px) {
-    display: none;
-  }
+    transform: translateX(-65%) translateY(46%);
+    width: 568px;
+    z-index: 0;
 `;
