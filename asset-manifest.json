@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.29c8d846.js",
-    "static/js/787.a4908eeb.chunk.js": "/static/js/787.a4908eeb.chunk.js",
-    "static/media/artwork71.svg": "/static/media/artwork71.58bfb755ad1e75bf5540d241649318f7.svg",
-    "static/media/artwork1.svg": "/static/media/artwork1.b227cb733e8c3f0f5f5badc4740d234e.svg",
-    "static/media/artwork2.svg": "/static/media/artwork2.e1153e2a42118dea8b742563af7241d1.svg",
-    "static/media/rocketShip.svg": "/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
-    "index.html": "/index.html",
-    "main.29c8d846.js.map": "/static/js/main.29c8d846.js.map",
-    "787.a4908eeb.chunk.js.map": "/static/js/787.a4908eeb.chunk.js.map"
+    "main.js": "/Startupz-Landing-Page/static/js/main.9c6d4b31.js",
+    "static/js/787.a4908eeb.chunk.js": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js",
+    "static/media/artwork71.svg": "/Startupz-Landing-Page/static/media/artwork71.58bfb755ad1e75bf5540d241649318f7.svg",
+    "static/media/artwork1.svg": "/Startupz-Landing-Page/static/media/artwork1.b227cb733e8c3f0f5f5badc4740d234e.svg",
+    "static/media/artwork2.svg": "/Startupz-Landing-Page/static/media/artwork2.e1153e2a42118dea8b742563af7241d1.svg",
+    "static/media/rocketShip.svg": "/Startupz-Landing-Page/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
+    "index.html": "/Startupz-Landing-Page/index.html",
+    "main.9c6d4b31.js.map": "/Startupz-Landing-Page/static/js/main.9c6d4b31.js.map",
+    "787.a4908eeb.chunk.js.map": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.29c8d846.js"
+    "static/js/main.9c6d4b31.js"
   ]
 }
