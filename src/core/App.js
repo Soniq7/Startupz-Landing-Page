@@ -4,8 +4,19 @@ import Form from "../features/Form";
 import SectionForm from "../common/Sections/SectionForm";
 import SectionMain from "../common/Sections/SectionMain";
 import ButtonTeal from "../features/Buttons/ButtonTeal";
+import TableData from "../features/Tables/TableData";
+import SectionTable from "../common/Sections/SectionTable";
+import ReusableTable from "../features/Tables/ReusableTable";
+import artwork1SVG from "../common/images/artwork1.svg";
+import artwork2SVG from "../common/images/artwork2.svg";
 
-function App() {
+
+
+
+const App = () => {
+  const tableData1 = TableData({ type: 'one' });
+  const tableData2 = TableData({ type: 'two' });
+
   return (
     <Container>
       <>
@@ -14,58 +25,25 @@ function App() {
           headerContent="We are startup studio that develops and launches new companies."
           body={<ButtonTeal buttonContent="See our works" />}
         />
-        <section>
-          <h2>Who we are</h2>
-          <p>
-            We create products that have innovation and technology at their
-            core. We value working with talented people that understand the
-            possibilities of today.
-          </p>
-          <div>
-            <table>
-              <thead>
-                <tr>
-                  <th>01</th>
-                  <th>02</th>
-                  <th>03</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>We develop innovative products, systems and services</td>
-                  <td>Next we build teams to scale them into companies</td>
-                  <td>Each startup solving one problem at a time</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
+        <SectionTable 
+          title="Who we are"
+          headerContent="We create products that have innovation and technology at their
+          core. We value working with talented people that understand the
+          possibilities of today."
+          body={<ReusableTable data={tableData1}/>}
+          imageSrc={artwork1SVG}
+        />
+        
         <section>
           <p>We love solving problems!</p>
         </section>
-        <section>
-          <h2>Our core values</h2>
-          <div>
-            <table>
-              <thead>
-                <tr>
-                  <th>01. Innovation</th>
-                  <th>02. People</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    Startupz operates where entrepreneurship and technology
-                    intersect. We design solutions and turn them into business
-                    models.
-                  </td>
-                  <td>Talent is what enables us to create great companies.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
+
+        <SectionTable 
+          title="Our core values"
+          body={<ReusableTable data={tableData2}/>}
+          imageSrc={artwork2SVG}
+        />
+      
         <section>
           <h2>Our works</h2>
           <div>

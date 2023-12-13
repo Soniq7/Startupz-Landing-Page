@@ -7,20 +7,19 @@ export const StyledSection = styled.section`
 
   @media (max-width: ${({theme}) => theme.breakpoint.tabletHorizontal}px) {
     margin: auto;
-    /* height: auto; */
     padding-bottom: 96px;
   }
 `;
 
 export const Header = styled.header`
-  margin-top: 230px;
+  margin-top: 190px;
+  margin-left: 120px;
   color: ${({theme}) => theme.colors.text.primaryOrange};
   font-size: 24px;
   line-height: 30px;
-  margin: 200px 0px 0px 90px; 
 
   @media (max-width: ${({theme}) => theme.breakpoint.tabletHorizontal}px) {
-    margin: 230px auto auto auto;
+    margin: 190px auto auto auto;
     width: 90%;
     height: auto;
   }
@@ -46,13 +45,13 @@ export const Title = styled.h2`
 `;
 
 export const Body = styled.div`
-    margin: 40px 0px 0px 90px;
+    margin: 40px 0px 0px 120px;
 `;
 
 export const StyledImage = styled.img`
   position: absolute;
   left: 50%;
-  transform: translateY(-52%);
+  transform: translateY(-50%);
   z-index: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {

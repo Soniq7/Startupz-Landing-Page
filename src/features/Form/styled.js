@@ -54,6 +54,7 @@ export const InputMessage = styled.input`
 export const Button = styled.button`
 width: 243px;
 height: 45px;
+font-size: 18px;
 border-radius: 32.5px;
 margin-top: 15px;
 border: solid 1px ${({theme}) => theme.colors.border.borderGrey};
