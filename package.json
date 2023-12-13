@@ -2,7 +2,7 @@
   "name": "startupz-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homegape": "https://soniq7.github.io/Startupz-Landing-Page/",
+  "homepage": "https://soniq7.github.io/Startupz-Landing-Page/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
