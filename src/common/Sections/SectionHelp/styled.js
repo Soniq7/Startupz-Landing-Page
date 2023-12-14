@@ -16,7 +16,7 @@ export const Header = styled.header`
     font-size: 40px;
     line-height: 50px;
     font-weight: bold;
-    margin-top: 150px;
+    margin-top: 180px;
 `;
 
 export const Body = styled.div``;

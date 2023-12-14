@@ -37,6 +37,7 @@ export const Title = styled.h2`
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     margin: auto;
     height: auto;
+    padding-bottom: 30px;
     font-size: 40px;
     line-height: 40px;
     width: 100%;
