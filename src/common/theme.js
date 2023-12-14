@@ -46,9 +46,11 @@ export const theme = {
         }
     },
     breakpoint: {
+        smallScreen: 375,
+        mobileSmall: 420,
         mobile: 767,
         tabletVertical: 960,
         tabletHorizontal: 1420,
-
+        wideScreen: 2300,
     },
 };

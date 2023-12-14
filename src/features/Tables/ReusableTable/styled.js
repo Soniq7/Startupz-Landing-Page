@@ -4,14 +4,19 @@ export const Table = styled.table`
     width: 90%;
     text-align: left;
     font-size: 30px;
-    padding: 30px;
-    margin: 50px;
+    padding: 30px 100px 30px 80px;
     table-layout: auto;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.tabletHorizontal}px) {
+        font-size: 20px;
+        margin: auto;
+        height: auto;
+        width: auto;
+        padding: 0px;
+    }
 
     @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
         font-size: 15px;
-        margin: auto;
-        padding: 0px;
     }
 `;
 
@@ -45,12 +50,18 @@ export const TableCell = styled.td`
 
     @media (max-width: ${({theme}) => theme.breakpoint.tabletHorizontal}px) {
         margin: auto;
-        padding: 40px 20px 0px 0px;
+        height: auto;
+        width: auto;
+        line-height: 20px;
+        padding: 40px 20px 60px 0px;
     }
 
     @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
         margin: auto;
-        padding: 40px 20px 0px 0px;
+        height: auto;
+        width: auto;
+        line-height: 20px;
+        padding: 40px 20px 60px 0px;
     }
 `;
 
