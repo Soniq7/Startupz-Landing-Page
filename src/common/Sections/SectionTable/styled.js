@@ -16,7 +16,7 @@ export const Header = styled.header`
   width: 876px;
   font-size: 24px;
   line-height: 30px;
-  padding: 0px 40px 100px 0px;
+  padding-right: 40px;
   color: ${({ theme }) => theme.colors.text.primaryOrange};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
@@ -31,8 +31,7 @@ export const Header = styled.header`
 export const Title = styled.h2`
   font-size: 50px;
   line-height: 50px;
-  margin-top: 0px;
-  padding: 150px 0px 20px 0px;
+  padding: 130px 30px 0px 0px;
   color: ${({ theme }) => theme.colors.text.primaryText};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
@@ -45,11 +44,11 @@ export const Title = styled.h2`
 `;
 
 export const Body = styled.div`
-  padding-top: 180px;
-  padding-left: 40px;
+  margin-left: 40px;
+  margin-top: 150px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
-    padding: 20px;
+    margin: auto;
   }
 `;
 
@@ -57,11 +56,22 @@ export const StyledImage = styled.img`
   max-width: 30%;
   height: auto;
   margin-left: 80%;
-  transform: translateY(-150%);
+  transform: translateY(-90%);
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     max-width: 100%;
+    margin-left: 80%;
+    transform: translateY(-38%);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+    max-width: 100%;
     margin-left: 70%;
-    transform: translateY(-50%);
+    transform: translateY(-38%);
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoint.smallScreen}px) {
+    max-width: 100%;
+    margin-left: 60%;
+    transform: translateY(-38%);
   }
 `;

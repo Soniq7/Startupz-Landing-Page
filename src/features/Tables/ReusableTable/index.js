@@ -1,22 +1,22 @@
-import { Table, TableHeader, TableCell } from "./styled";
+import { Table, TableHeader, TableRow, TableCell } from "./styled";
 
 const ReusableTable = ({ data }) => {
   return (
     <Table>
       <thead>
-        <tr>
+        <TableRow>
           {data.headers.map((header, index) => (
             <TableHeader key={index}>{header}</TableHeader>
           ))}
-        </tr>
+        </TableRow>
       </thead>
       <tbody>
         {data.rows.map((row, rowIndex) => (
-          <tr key={rowIndex}>
+          <TableRow key={rowIndex}>
             {row.map((cell, cellIndex) => (
               <TableCell key={cellIndex}>{cell}</TableCell>
             ))}
-          </tr>
+          </TableRow>
         ))}
       </tbody>
     </Table>

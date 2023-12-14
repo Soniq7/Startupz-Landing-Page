@@ -4,12 +4,13 @@ export const Table = styled.table`
   width: 90%;
   text-align: left;
   font-size: 30px;
-  padding: 30px 100px 30px 80px;
-  table-layout: auto;
+  padding: 50px 100px 50px 80px;
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     font-size: 20px;
-    margin: auto;
+    margin-left: 50px;
     height: auto;
     width: auto;
     padding: 0px;
@@ -17,12 +18,13 @@ export const Table = styled.table`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     font-size: 15px;
+    margin-left: 20px;
   }
 `;
 
 export const TableHeader = styled.th`
+  flex-grow: 1;
   position: relative;
-  margin: 30px;
   color: ${({ theme }) => theme.colors.text.primaryOrange};
   line-height: 30px;
 
@@ -44,25 +46,22 @@ export const TableHeader = styled.th`
   }
 `;
 
+export const TableRow = styled.tr`
+  display: flex;
+`;
+
 export const TableCell = styled.td`
-  width: auto;
-  height: 114px;
-  padding: 50px 60px 0px 0px;
+  flex-grow: 1;
+  padding: 50px 0px 0px 0px;
   line-height: 38px;
   vertical-align: top;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
-    margin: auto;
-    height: auto;
-    width: auto;
     line-height: 20px;
     padding: 40px 20px 60px 0px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    margin: auto;
-    height: auto;
-    width: auto;
     line-height: 20px;
     padding: 40px 20px 60px 0px;
   }
