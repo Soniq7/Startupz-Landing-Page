@@ -10,12 +10,9 @@ import ReusableTable from "../features/Tables/ReusableTable";
 import artwork1SVG from "../common/images/artwork1.svg";
 import artwork2SVG from "../common/images/artwork2.svg";
 
-
-
-
 const App = () => {
-  const tableData1 = TableData({ type: 'one' });
-  const tableData2 = TableData({ type: 'two' });
+  const tableData1 = TableData({ type: "one" });
+  const tableData2 = TableData({ type: "two" });
 
   return (
     <Container>
@@ -25,25 +22,25 @@ const App = () => {
           headerContent="We are startup studio that develops and launches new companies."
           body={<ButtonTeal buttonContent="See our works" />}
         />
-        <SectionTable 
+        <SectionTable
           title="Who we are"
           headerContent="We create products that have innovation and technology at their
           core. We value working with talented people that understand the
           possibilities of today."
-          body={<ReusableTable data={tableData1}/>}
+          body={<ReusableTable data={tableData1} />}
           imageSrc={artwork1SVG}
         />
-        
+
         <section>
           <p>We love solving problems!</p>
         </section>
 
-        <SectionTable 
+        <SectionTable
           title="Our core values"
-          body={<ReusableTable data={tableData2}/>}
+          body={<ReusableTable data={tableData2} />}
           imageSrc={artwork2SVG}
         />
-      
+
         <section>
           <h2>Our works</h2>
           <div>
@@ -124,6 +121,6 @@ const App = () => {
       </>
     </Container>
   );
-}
+};
 
 export default App;

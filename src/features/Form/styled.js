@@ -14,7 +14,7 @@ export const StyledForm = styled.form`
   position: relative;
   z-index: 1;
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     margin: auto;
     width: 90%;
     height: auto;
@@ -29,7 +29,7 @@ export const Input = styled.input`
   border: none;
   padding: 15px;
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     margin: auto;
     width: 90%;
     height: auto;
@@ -44,36 +44,35 @@ export const InputMessage = styled.input`
   border: none;
   padding: 15px;
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     margin: auto;
     width: 90%;
   }
 `;
 
-
 export const Button = styled.button`
-width: 243px;
-height: 45px;
-font-size: 18px;
-border-radius: 32.5px;
-margin-top: 15px;
-border: solid 1px ${({theme}) => theme.colors.border.borderGrey};
-background-color: ${({theme}) => theme.colors.background.backgroundGrey};
-color: ${({theme}) => theme.colors.text.textMessageButton};
+  width: 243px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 32.5px;
+  margin-top: 15px;
+  border: solid 1px ${({ theme }) => theme.colors.border.borderGrey};
+  background-color: ${({ theme }) => theme.colors.background.backgroundGrey};
+  color: ${({ theme }) => theme.colors.text.textMessageButton};
 
-&:hover {
+  &:hover {
     cursor: pointer;
     filter: brightness(120%);
     transform: scale(1.1);
     transition: 1s;
-}
+  }
 
-&:active {
+  &:active {
     filter: brightness(130%);
-    border: 1px solid ${({theme}) => theme.colors.border.borderGrey};
-}
+    border: 1px solid ${({ theme }) => theme.colors.border.borderGrey};
+  }
 
-@media (max-width: ${({theme}) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     margin-bottom: 30px;
     width: 80%;
   }

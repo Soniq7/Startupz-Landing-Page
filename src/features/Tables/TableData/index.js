@@ -1,4 +1,3 @@
-
 const TableData = ({ type }) => {
   if (type === "one") {
     return {

@@ -68,7 +68,7 @@ export const StyledImage = styled.img`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletVertical}px) {
-    margin-left:18%;
+    margin-left: 18%;
     transform: translateY(-5%);
   }
 
