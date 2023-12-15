@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.js": "/Startupz-Landing-Page/static/js/main.8ff6bc30.js",
+    "main.js": "/Startupz-Landing-Page/static/js/main.b97f7839.js",
     "static/js/787.a4908eeb.chunk.js": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js",
+    "static/media/group30.svg": "/Startupz-Landing-Page/static/media/group30.4ce922a27ebb9db5f3f73507d32d4bdb.svg",
     "static/media/artwork71.svg": "/Startupz-Landing-Page/static/media/artwork71.58bfb755ad1e75bf5540d241649318f7.svg",
     "static/media/artwork1.svg": "/Startupz-Landing-Page/static/media/artwork1.b227cb733e8c3f0f5f5badc4740d234e.svg",
     "static/media/thumbReversed.svg": "/Startupz-Landing-Page/static/media/thumbReversed.bae9a488f83050257fdb75e033c7ea13.svg",
     "static/media/thumb.svg": "/Startupz-Landing-Page/static/media/thumb.2b148ce6fbecce91b7e53bb861a435ab.svg",
     "static/media/artwork2.svg": "/Startupz-Landing-Page/static/media/artwork2.e1153e2a42118dea8b742563af7241d1.svg",
+    "static/media/group31.svg": "/Startupz-Landing-Page/static/media/group31.cd45a3562046ae9ccc2de4e42aae0ea8.svg",
     "static/media/rocketShip.svg": "/Startupz-Landing-Page/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
     "index.html": "/Startupz-Landing-Page/index.html",
-    "main.8ff6bc30.js.map": "/Startupz-Landing-Page/static/js/main.8ff6bc30.js.map",
+    "main.b97f7839.js.map": "/Startupz-Landing-Page/static/js/main.b97f7839.js.map",
     "787.a4908eeb.chunk.js.map": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8ff6bc30.js"
+    "static/js/main.b97f7839.js"
   ]
 }
