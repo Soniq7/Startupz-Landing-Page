@@ -10,6 +10,7 @@ import ReusableTable from "../features/Tables/ReusableTable";
 import artwork1SVG from "../common/images/artwork1.svg";
 import artwork2SVG from "../common/images/artwork2.svg";
 import SectionHelp from "../common/Sections/SectionHelp";
+import ImagePopup from "../features/ImagePopup";
 
 const App = () => {
   const tableData1 = TableData({ type: "one" });
@@ -33,6 +34,7 @@ const App = () => {
         />
         <SectionHelp 
           headerContent="We love solving problems!" 
+          body={<ImagePopup />}
         />
         <SectionTable
           title="Our core values"
