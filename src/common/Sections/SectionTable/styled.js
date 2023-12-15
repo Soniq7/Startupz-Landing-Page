@@ -32,6 +32,7 @@ export const Title = styled.h2`
   font-size: 50px;
   line-height: 50px;
   padding: 130px 30px 0px 0px;
+  margin-top: 0px;
   color: ${({ theme }) => theme.colors.text.primaryText};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
