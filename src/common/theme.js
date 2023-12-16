@@ -45,11 +45,12 @@ export const theme = {
     },
   },
   breakpoint: {
-    smallScreen: 375,
-    mobileSmall: 420,
+    smallScreen: 390,
+    mobileSmall: 580,
     mobile: 767,
-    tabletVertical: 960,
-    tabletHorizontal: 1420,
+    tablet: 960,
+    tabletVertical: 1090,
+    tabletHorizontal: 1490,
     wideScreen: 2300,
   },
 };

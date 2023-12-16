@@ -4,9 +4,6 @@ export const Table = styled.table`
   width: 90%;
   text-align: left;
   font-size: 30px;
-  padding: 50px 100px 50px 80px;
-  display: flex;
-  flex-direction: column;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     font-size: 20px;
@@ -23,7 +20,6 @@ export const Table = styled.table`
 `;
 
 export const TableHeader = styled.th`
-  flex-grow: 1;
   position: relative;
   color: ${({ theme }) => theme.colors.text.primaryOrange};
   line-height: 30px;
@@ -46,15 +42,11 @@ export const TableHeader = styled.th`
   }
 `;
 
-export const TableRow = styled.tr`
-  display: flex;
-`;
-
 export const TableCell = styled.td`
-  flex-grow: 1;
-  padding: 50px 0px 0px 0px;
+  
+  padding: 50px 50px 0px 0px;
   line-height: 38px;
-  vertical-align: top;
+  color: ${({ theme }) => theme.colors.text.primaryText};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     line-height: 20px;

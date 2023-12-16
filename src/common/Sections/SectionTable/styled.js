@@ -11,12 +11,14 @@ export const StyledSection = styled.section`
 `;
 
 export const Header = styled.header`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-left: 120px;
-  height: 50px;
   width: 876px;
   font-size: 24px;
   line-height: 30px;
-  padding-right: 40px;
   color: ${({ theme }) => theme.colors.text.primaryOrange};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
@@ -31,8 +33,8 @@ export const Header = styled.header`
 export const Title = styled.h2`
   font-size: 50px;
   line-height: 50px;
-  padding: 130px 30px 0px 0px;
-  margin-top: 0px;
+  padding: 50px 0px 40px 0px;
+  margin: 0px;
   color: ${({ theme }) => theme.colors.text.primaryText};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
@@ -43,11 +45,15 @@ export const Title = styled.h2`
     line-height: 40px;
     width: 100%;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
+    padding: 50px 60px 40px 0px;
+  }
 `;
 
 export const Body = styled.div`
-  margin-left: 40px;
-  margin-top: 150px;
+  margin-top: 80px;
+  margin-left: 120px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     margin: auto;
@@ -55,25 +61,22 @@ export const Body = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
-  margin-left: 80%;
-  transform: translateY(-90%);
+  margin-left: 120%;
+  transform: translateY(140%);
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
-    max-width: 100%;
     margin-left: 80%;
-    transform: translateY(-38%);
+    transform: translateY(70%);
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    max-width: 100%;
-    margin-left: 70%;
-    transform: translateY(-38%);
+    margin-left: 80%;
+    transform: translateY(90%);
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.smallScreen}px) {
-    max-width: 100%;
-    margin-left: 60%;
-    transform: translateY(-38%);
+    margin-left: 70%;
+    transform: translateY(110%);
   }
 `;

@@ -68,22 +68,17 @@ export const StyledImage = styled.img`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletVertical}px) {
-    margin-left: 18%;
+    margin-left: 26%;
     transform: translateY(-5%);
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    margin-left: -5%;
-    transform: translateY(15%);
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
     margin-left: -5%;
     transform: translateY(20%);
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.smallScreen}px) {
     margin-left: -5%;
-    transform: translateY(25%);
+    transform: translateY(30%);
   }
 `;
