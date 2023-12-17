@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.js": "/Startupz-Landing-Page/static/js/main.b224d25c.js",
+    "main.js": "/Startupz-Landing-Page/static/js/main.7d17af35.js",
     "static/js/787.a4908eeb.chunk.js": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js",
+    "static/media/frame11.svg": "/Startupz-Landing-Page/static/media/frame11.5b43d34ef35ef2ab59857ab97f74b2fe.svg",
+    "static/media/frame14.svg": "/Startupz-Landing-Page/static/media/frame14.ac6fe1ecce8835dabd47748b1a925a19.svg",
+    "static/media/frame13.svg": "/Startupz-Landing-Page/static/media/frame13.b6f5845ff1f9739ca443f436d88b0e65.svg",
     "static/media/group30.svg": "/Startupz-Landing-Page/static/media/group30.4ce922a27ebb9db5f3f73507d32d4bdb.svg",
     "static/media/artwork71.svg": "/Startupz-Landing-Page/static/media/artwork71.58bfb755ad1e75bf5540d241649318f7.svg",
+    "static/media/frame12.svg": "/Startupz-Landing-Page/static/media/frame12.5affae39478d82614a049b44f9cb03b4.svg",
     "static/media/frame4.svg": "/Startupz-Landing-Page/static/media/frame4.f3fde24c334895f3a019229a5034dfb7.svg",
     "static/media/frame5.svg": "/Startupz-Landing-Page/static/media/frame5.7f2a06f61eb80041b9277816113cc7d5.svg",
+    "static/media/group23.svg": "/Startupz-Landing-Page/static/media/group23.f5fbe63d68be08f64add4aef6186650b.svg",
     "static/media/artwork1.svg": "/Startupz-Landing-Page/static/media/artwork1.b227cb733e8c3f0f5f5badc4740d234e.svg",
     "static/media/thumbReversed.svg": "/Startupz-Landing-Page/static/media/thumbReversed.bae9a488f83050257fdb75e033c7ea13.svg",
     "static/media/thumb.svg": "/Startupz-Landing-Page/static/media/thumb.2b148ce6fbecce91b7e53bb861a435ab.svg",
@@ -13,10 +18,10 @@
     "static/media/group31.svg": "/Startupz-Landing-Page/static/media/group31.cd45a3562046ae9ccc2de4e42aae0ea8.svg",
     "static/media/rocketShip.svg": "/Startupz-Landing-Page/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
     "index.html": "/Startupz-Landing-Page/index.html",
-    "main.b224d25c.js.map": "/Startupz-Landing-Page/static/js/main.b224d25c.js.map",
+    "main.7d17af35.js.map": "/Startupz-Landing-Page/static/js/main.7d17af35.js.map",
     "787.a4908eeb.chunk.js.map": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b224d25c.js"
+    "static/js/main.7d17af35.js"
   ]
 }
