@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Startupz-Landing-Page/static/js/main.abade46d.js",
+    "main.js": "/Startupz-Landing-Page/static/js/main.4d241422.js",
     "static/js/787.a4908eeb.chunk.js": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js",
     "static/media/frame11.svg": "/Startupz-Landing-Page/static/media/frame11.5b43d34ef35ef2ab59857ab97f74b2fe.svg",
     "static/media/frame14.svg": "/Startupz-Landing-Page/static/media/frame14.ac6fe1ecce8835dabd47748b1a925a19.svg",
@@ -18,10 +18,10 @@
     "static/media/group31.svg": "/Startupz-Landing-Page/static/media/group31.cd45a3562046ae9ccc2de4e42aae0ea8.svg",
     "static/media/rocketShip.svg": "/Startupz-Landing-Page/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
     "index.html": "/Startupz-Landing-Page/index.html",
-    "main.abade46d.js.map": "/Startupz-Landing-Page/static/js/main.abade46d.js.map",
+    "main.4d241422.js.map": "/Startupz-Landing-Page/static/js/main.4d241422.js.map",
     "787.a4908eeb.chunk.js.map": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.abade46d.js"
+    "static/js/main.4d241422.js"
   ]
 }
