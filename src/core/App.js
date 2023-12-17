@@ -73,7 +73,7 @@ const App = () => {
             headerContent="Share your excitement with us."
             body={<Form />}
           />
-
+          
           <footer>
             <p>© 2020 Startupz. All rights reserved.</p>
             <aside>

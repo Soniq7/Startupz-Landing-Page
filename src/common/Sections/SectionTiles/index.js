@@ -23,7 +23,7 @@ const SectionTile = () => {
       image: frame11SVG,
       buttonLabel: "More",
       buttonUrl: "https://tolq.com/",
-      titleColor: ({theme}) => theme.colors.text.textGreen,
+      $color: ({theme}) => theme.colors.text.textGreen,
     },
 
     {
@@ -33,7 +33,7 @@ const SectionTile = () => {
       image: frame12SVG,
       buttonLabel: "More",
       buttonUrl: "https://www.feedbacklabs.com/",
-      titleColor: ({theme}) => theme.colors.text.textLightBlue,
+      $color: ({theme}) => theme.colors.text.textLightBlue,
     },
     {
       title: "Codekeeper",
@@ -42,7 +42,7 @@ const SectionTile = () => {
       image: frame13SVG,
       buttonLabel: "More",
       buttonUrl: "https://codekeeper.co/",
-      titleColor: ({theme}) => theme.colors.text.textBlue,
+      $color: ({theme}) => theme.colors.text.textBlue,
     },
     {
       title: "LegalSite",
@@ -51,7 +51,7 @@ const SectionTile = () => {
       image: frame14SVG,
       buttonLabel: "More",
       buttonUrl: "https://legalsite.co/",
-      titleColor: ({theme}) => theme.colors.text.textPurple,
+      $color: ({theme}) => theme.colors.text.textPurple,
     },
   ];
 
@@ -61,7 +61,7 @@ const SectionTile = () => {
       <StyledSection>
         {titleData.map((title, index) => (
           <Tile key={index}>
-            <Title titleColor={title.titleColor}>{title.title}</Title>
+            <Title $color={title.$color}>{title.title}</Title>
             <Text>{title.description}</Text>
             <TileImage src={title.image} alt={`Picture ${index + 1}`} />
             <div>

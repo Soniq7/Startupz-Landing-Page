@@ -7,6 +7,14 @@ export const SectionTitle = styled.p`
   font-weight: bold;
   line-height: 50px;
   padding: 80px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
+    padding: 60px 0px 80px 0px;
+  }
 `;
 
 export const StyledSection = styled.section`
@@ -47,7 +55,7 @@ export const Tile = styled.div`
 `;
 
 export const Title = styled.h2`
-  color: ${({ titleColor }) => titleColor};
+  color: ${({ $color }) => $color};
   height: 30px;
   font-size: 32px;
   font-weight: bold;
@@ -94,7 +102,7 @@ export const TextImage = styled.img`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    padding: 60px;
+    padding: 60px 20px 60px 20px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
@@ -102,6 +110,6 @@ export const TextImage = styled.img`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
-    padding: 20px;
+    padding: 0px 10px 50px 10px;
   }
 `;
