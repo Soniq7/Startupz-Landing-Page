@@ -15,7 +15,7 @@ import frame14SVG from "../../images/frame14.svg";
 import group23SVG from "../../images/group23.svg";
 
 const SectionTile = () => {
-  const tileData = [
+  const titleData = [
     {
       title: "Tolq",
       description:
@@ -23,7 +23,9 @@ const SectionTile = () => {
       image: frame11SVG,
       buttonLabel: "More",
       buttonUrl: "https://tolq.com/",
+      titleColor: ({theme}) => theme.colors.text.textGreen,
     },
+
     {
       title: "Feedback Labs",
       description:
@@ -31,6 +33,7 @@ const SectionTile = () => {
       image: frame12SVG,
       buttonLabel: "More",
       buttonUrl: "https://www.feedbacklabs.com/",
+      titleColor: ({theme}) => theme.colors.text.textLightBlue,
     },
     {
       title: "Codekeeper",
@@ -39,6 +42,7 @@ const SectionTile = () => {
       image: frame13SVG,
       buttonLabel: "More",
       buttonUrl: "https://codekeeper.co/",
+      titleColor: ({theme}) => theme.colors.text.textBlue,
     },
     {
       title: "LegalSite",
@@ -47,6 +51,7 @@ const SectionTile = () => {
       image: frame14SVG,
       buttonLabel: "More",
       buttonUrl: "https://legalsite.co/",
+      titleColor: ({theme}) => theme.colors.text.textPurple,
     },
   ];
 
@@ -54,14 +59,14 @@ const SectionTile = () => {
     <div>
       <SectionTitle>Our works</SectionTitle>
       <StyledSection>
-        {tileData.map((tile, index) => (
+        {titleData.map((title, index) => (
           <Tile key={index}>
-            <Title>{tile.title}</Title>
-            <Text>{tile.description}</Text>
-            <TileImage src={tile.image} alt={`Picture ${index + 1}`} />
+            <Title titleColor={title.titleColor}>{title.title}</Title>
+            <Text>{title.description}</Text>
+            <TileImage src={title.image} alt={`Picture ${index + 1}`} />
             <div>
-              <a href={tile.buttonUrl} target="_blank" rel="noopener noreferrer">
-                <ButtonWhite buttonContent={tile.buttonLabel} />
+              <a href={title.buttonUrl} target="_blank" rel="noopener noreferrer">
+                <ButtonWhite buttonContent={title.buttonLabel} />
               </a>
             </div>
           </Tile>

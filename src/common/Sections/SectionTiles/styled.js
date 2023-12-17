@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const SectionTitle = styled.p`
-    text-align: center;
-    height: 50px;
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 50px;
-    padding: 80px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 80px;
 `;
 
 export const StyledSection = styled.section`
@@ -47,6 +47,7 @@ export const Tile = styled.div`
 `;
 
 export const Title = styled.h2`
+  color: ${({ titleColor }) => titleColor};
   height: 30px;
   font-size: 32px;
   font-weight: bold;
@@ -90,15 +91,15 @@ export const TextImage = styled.img`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletVertical}px) {
     padding: 80px;
-  }  
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     padding: 60px;
-  } 
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
     padding: 40px;
-  } 
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
     padding: 20px;
