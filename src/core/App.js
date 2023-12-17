@@ -59,11 +59,13 @@ const App = () => {
             headerContent="We're always looking for talented people to join and help build our
           startups. Check out our current openings"
             body={
-              <ButtonTeal
-                buttonContent="See current openings"
-                width="243px"
-                $custom={marginValue}
-              />
+              <a href="https://www.linkedin.com/company/startupz.com/jobs/" target="_blank" rel="noopener noreferrer">
+                <ButtonTeal
+                  buttonContent="See current openings"
+                  width="243px"
+                  $custom={marginValue}
+                />
+              </a>
             }
           />
           <SectionForm
