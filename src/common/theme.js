@@ -8,7 +8,7 @@ const colorCollection = {
   bondiBlue: "#00A0B6",
   trueV: "#8B60D3",
   hintOfRed: "#FBFAFA",
-  indianKhaki: "#BBA98E",
+  indianKhaki: "rgba(187, 169, 142, 0.15)",
   texasRose: "#FFC351",
   concrete: "#F3F3F3",
   desertStorm: "#FBFBFA",
@@ -51,6 +51,7 @@ export const theme = {
     tablet: 960,
     tabletVertical: 1090,
     tabletHorizontal: 1490,
+    desktopScreen: 1800,
     wideScreen: 2300,
   },
 };

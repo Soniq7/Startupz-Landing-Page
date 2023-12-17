@@ -29,8 +29,8 @@ export const Header = styled.header`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileSmall}px) {
-    font-size: 20px;
-    margin-top: 120px;
+    font-size: 25px;
+    margin-top: 90px;
   }
 `;
 

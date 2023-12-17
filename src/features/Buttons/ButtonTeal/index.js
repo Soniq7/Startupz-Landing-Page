@@ -19,7 +19,6 @@ const Button = styled.button`
 
   &:active {
     filter: brightness(120%);
-    border: 1px solid ${({ theme }) => theme.colors.border.borderBlue};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {

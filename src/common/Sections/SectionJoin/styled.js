@@ -30,10 +30,6 @@ export const Title = styled.h2`
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
     font-size: 40px;
   }
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    font-size: 35px;
-  }
 `;
 
 export const Body = styled.div`
@@ -44,7 +40,7 @@ export const Body = styled.div`
   margin: 0px 173px 0px 173px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
-    margin: auto;
+    margin: 20px;
     width: 100%;
   }
 `;
