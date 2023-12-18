@@ -72,14 +72,14 @@ export const Footer = () => (
         <img src={twitterSVG} />
       </a>
       <a
-        href="https://www.linkedin.com/company/startupz.com//"
+        href="https://www.linkedin.com/company/startupz.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={linkedinSVG} />
       </a>
       <a
-        href="https://www.instagram.com/startupzcom//"
+        href="https://www.instagram.com/startupzcom/"
         target="_blank"
         rel="noopener noreferrer"
       >
