@@ -12,8 +12,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
         line-height: 1.5;
         font-family: "Circular Std", sans-serif;
-        color: ${({theme}) => theme.colors.text.primaryText};
-        background: ${({theme}) => theme.colors.background.backgroundWhite};
+        color: ${({ theme }) => theme.colors.text.primaryText};
+        background: ${({ theme }) => theme.colors.background.backgroundWhite};
         overflow-wrap: anywhere;
     }
 

@@ -55,8 +55,10 @@ export const Footer = () => (
     <ContainerContact>
       <Header>Contact</Header>
       <ContactText>
-        World Trade Center - The Hague<br /> Prinses Margrietplantsoen 33< br /> 2595 AM The
-        Hague< br /> The Netherlands
+        World Trade Center - The Hague
+        <br /> Prinses Margrietplantsoen 33
+        <br /> 2595 AM The Hague
+        <br /> The Netherlands
       </ContactText>
       <EmailLink href="#">Send us an email</EmailLink>
     </ContainerContact>
