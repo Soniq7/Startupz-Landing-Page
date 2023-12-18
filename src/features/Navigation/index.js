@@ -1,18 +1,27 @@
+import { Link as ScrollLink } from "react-scroll";
 import ButtonWhite from "../Buttons/ButtonWhite";
-import { StyledNav, Wrap, LogoImage, StyledLink1, StyledLink2 } from "./styled";
+import { StyledNav, Wrap, LogoImage, StyledScrollLink } from "./styled";
 import logoSVG from "../../common/images/logo.svg";
 
-
-export const Navigation = () => (
+export const Navigation = ({ scrollToSection }) => {
+  return (
     <StyledNav>
-        <LogoImage src={logoSVG} />
+      <LogoImage src={logoSVG} />
       <Wrap>
-        <StyledLink1 href="#">Startups</StyledLink1>
-        <StyledLink2 href="#">Contact</StyledLink2>
-      <ButtonWhite 
-        buttonContent="Work with us!"
-        width="185px"
-      />
+        <StyledScrollLink to="whoWeAreSection" smooth={true} duration={1000}>
+          Startups
+        </StyledScrollLink>
+        <StyledScrollLink to="contactSection" smooth={true} duration={1000}>
+          Contact
+        </StyledScrollLink>
+        <ScrollLink to="weAreHiringSection" smooth={true} duration={1000}>
+          <ButtonWhite
+            buttonContent="Work with us!"
+            width="185px"
+            onClick={() => scrollToSection()}
+          />
+        </ScrollLink>
       </Wrap>
     </StyledNav>
-);
+  );
+};

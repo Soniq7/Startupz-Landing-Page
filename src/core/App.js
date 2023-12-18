@@ -1,3 +1,5 @@
+import { useRef } from "react";
+import { Link as ScrollLink, Element } from "react-scroll";
 import Container from "../common/Container";
 import Form from "../features/Form";
 import SectionForm from "../common/Sections/SectionForm";
@@ -19,6 +21,17 @@ const App = () => {
   const tableData1 = TableData({ type: "one" });
   const tableData2 = TableData({ type: "two" });
 
+  const ourWorksSection = useRef(null);
+  const whoWeAreSection = useRef(null);
+  const contactSection = useRef(null);
+  const weAreHiringSection = useRef(null);
+
+  const scrollToSection = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const marginValue = "30px";
 
   return (
@@ -28,21 +41,26 @@ const App = () => {
         title="We Create Startups."
         headerContent="We are startup studio that develops and launches new companies."
         body={
-          <ButtonTeal
-            buttonContent="See our works"
-            width="157px"
-            height="45px"
-          />
+          <ScrollLink to="ourWorksSection" smooth={true} duration={1000}>
+            <ButtonTeal
+              buttonContent="See our works"
+              width="157px"
+              height="45px"
+              onClick={scrollToSection}
+            />
+          </ScrollLink>
         }
       />
-      <SectionTable
-        title="Who we are"
-        imageSrc={artwork1SVG}
-        headerContent="We create products that have innovation and technology at their
+      <Element name="whoWeAreSection" ref={whoWeAreSection}>
+        <SectionTable
+          title="Who we are"
+          imageSrc={artwork1SVG}
+          headerContent="We create products that have innovation and technology at their
           core. We value working with talented people that understand the
           possibilities of today."
-        body={<ReusableTable data={tableData1} />}
-      />
+          body={<ReusableTable data={tableData1} />}
+        />
+      </Element>
       <SectionHelp
         headerContent="We love solving problems!"
         body={<ImagePopup />}
@@ -52,31 +70,37 @@ const App = () => {
         imageSrc={artwork2SVG}
         body={<ReusableTable data={tableData2} />}
       />
-      <SectionTiles />
-      <SectionJoin
-        title="We are hiring!"
-        headerContent="We're always looking for talented people to join and help build our
+      <Element name="ourWorksSection" ref={ourWorksSection}>
+        <SectionTiles />
+      </Element>
+      <Element name="weAreHiringSection" ref={weAreHiringSection}>
+        <SectionJoin
+          title="We are hiring!"
+          headerContent="We're always looking for talented people to join and help build our
           startups. Check out our current openings"
-        body={
-          <a
-            href="https://www.linkedin.com/company/startupz.com/jobs/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <ButtonTeal
-              buttonContent="See current openings"
-              width="243px"
-              $custom={marginValue}
-            />
-          </a>
-        }
-      />
+          body={
+            <a
+              href="https://www.linkedin.com/company/startupz.com/jobs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ButtonTeal
+                buttonContent="See current openings"
+                width="243px"
+                $custom={marginValue}
+              />
+            </a>
+          }
+        />
+      </Element>
       <SectionForm
         title="Are you ready to board this rocket ship?"
         headerContent="Share your excitement with us."
         body={<Form />}
       />
-      <Footer />
+      <Element name="contactSection" ref={contactSection}>
+        <Footer />
+      </Element>
     </Container>
   );
 };

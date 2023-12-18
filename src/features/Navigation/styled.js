@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const StyledNav = styled.div`
   display: flex;
@@ -40,6 +41,10 @@ export const LogoImage = styled.img`
   height: auto;
 `;
 
-export const StyledLink1 = styled.a``;
+export const StyledScrollLink = styled(Link)`
 
-export const StyledLink2 = styled.a``;
+&:hover {
+    cursor: pointer;
+  }
+`;
+
