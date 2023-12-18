@@ -74,11 +74,11 @@ export const StyledImage = styled.img`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     margin-left: -5%;
-    transform: translateY(20%);
+    transform: translateY(40%);
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.smallScreen}px) {
     margin-left: -5%;
-    transform: translateY(30%);
+    transform: translateY(73%);
   }
 `;
