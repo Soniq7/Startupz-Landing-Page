@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Startupz-Landing-Page/static/js/main.4d241422.js",
+    "main.js": "/Startupz-Landing-Page/static/js/main.f7bbd7e4.js",
     "static/js/787.a4908eeb.chunk.js": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js",
     "static/media/frame11.svg": "/Startupz-Landing-Page/static/media/frame11.5b43d34ef35ef2ab59857ab97f74b2fe.svg",
     "static/media/frame14.svg": "/Startupz-Landing-Page/static/media/frame14.ac6fe1ecce8835dabd47748b1a925a19.svg",
@@ -16,12 +16,16 @@
     "static/media/thumb.svg": "/Startupz-Landing-Page/static/media/thumb.2b148ce6fbecce91b7e53bb861a435ab.svg",
     "static/media/artwork2.svg": "/Startupz-Landing-Page/static/media/artwork2.e1153e2a42118dea8b742563af7241d1.svg",
     "static/media/group31.svg": "/Startupz-Landing-Page/static/media/group31.cd45a3562046ae9ccc2de4e42aae0ea8.svg",
+    "static/media/logo.svg": "/Startupz-Landing-Page/static/media/logo.31c2c11da21f2462809c02fed2b4d219.svg",
     "static/media/rocketShip.svg": "/Startupz-Landing-Page/static/media/rocketShip.88a5ee4f8ff52280c3512e44ec514925.svg",
+    "static/media/instagram.svg": "/Startupz-Landing-Page/static/media/instagram.82a9aa3a3e03f36500f2b0068b0c622e.svg",
+    "static/media/twitter.svg": "/Startupz-Landing-Page/static/media/twitter.fcf21fc0c039ac6e835d4cdcb8432451.svg",
     "index.html": "/Startupz-Landing-Page/index.html",
-    "main.4d241422.js.map": "/Startupz-Landing-Page/static/js/main.4d241422.js.map",
+    "static/media/linkedin.svg": "/Startupz-Landing-Page/static/media/linkedin.169547cce5b9d481c65493f4ee0be61a.svg",
+    "main.f7bbd7e4.js.map": "/Startupz-Landing-Page/static/js/main.f7bbd7e4.js.map",
     "787.a4908eeb.chunk.js.map": "/Startupz-Landing-Page/static/js/787.a4908eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4d241422.js"
+    "static/js/main.f7bbd7e4.js"
   ]
 }
