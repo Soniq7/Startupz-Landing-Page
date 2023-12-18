@@ -12,6 +12,7 @@ const colorCollection = {
   texasRose: "#FFC351",
   concrete: "#F3F3F3",
   desertStorm: "#FBFBFA",
+  grey: "#939393",
 };
 
 export const theme = {
@@ -26,6 +27,7 @@ export const theme = {
       textBlue: colorCollection.bondiBlue,
       textPurple: colorCollection.trueV,
       textMessageButton: colorCollection.desertStorm,
+      textGrey: colorCollection.grey,
     },
     border: {
       borderBlue: colorCollection.pelorous,
@@ -45,6 +47,7 @@ export const theme = {
     },
   },
   breakpoint: {
+    superSmallScreen: 300,
     smallScreen: 390,
     mobileSmall: 580,
     mobile: 767,

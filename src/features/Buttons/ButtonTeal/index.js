@@ -27,10 +27,12 @@ const Button = styled.button`
   }
 `;
 
-const ButtonTeal = ({ buttonContent, width, $custom }) => (
-  <Button width={width} $custom={$custom}>
-    {buttonContent}
-  </Button>
-);
+const ButtonTeal = ({ buttonContent, width, $custom, }) => {
+    return (
+      <Button width={width} $custom={$custom}>
+        {buttonContent}
+      </Button>
+    );
+  };
 
 export default ButtonTeal;

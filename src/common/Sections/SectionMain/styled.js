@@ -12,14 +12,14 @@ export const StyledSection = styled.section`
 `;
 
 export const Header = styled.header`
-  margin-top: 190px;
+  margin-top: 160px;
   margin-left: 120px;
   color: ${({ theme }) => theme.colors.text.primaryOrange};
   font-size: 24px;
   line-height: 30px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {
-    margin: 190px auto auto auto;
+    margin: 100px auto auto auto;
     width: 90%;
     height: auto;
     font-size: 22px;
@@ -59,7 +59,7 @@ export const StyledImage = styled.img`
   max-width: 100%;
   height: auto;
   margin-left: 41%;
-  transform: translateY(-50%);
+  transform: translateY(-44%);
   position: absolute;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletHorizontal}px) {

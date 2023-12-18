@@ -14,7 +14,7 @@ import frame13SVG from "../../images/frame13.svg";
 import frame14SVG from "../../images/frame14.svg";
 import group23SVG from "../../images/group23.svg";
 
-const SectionTile = () => {
+const SectionTiles = () => {
   const titleData = [
     {
       title: "Tolq",
@@ -39,7 +39,7 @@ const SectionTile = () => {
       title: "Codekeeper",
       description:
         "Codekeeper is an all-in-one solution for software developers and publishers to provide source code escrow as part of service level and license agreements.",
-      image: frame13SVG,
+      image: frame14SVG,
       buttonLabel: "More",
       buttonUrl: "https://codekeeper.co/",
       $color: ({theme}) => theme.colors.text.textBlue,
@@ -48,7 +48,7 @@ const SectionTile = () => {
       title: "LegalSite",
       description:
         "Protected against legal risks, privacy compliant and always up-to-date with the latest regulatory developments.",
-      image: frame14SVG,
+      image: frame13SVG,
       buttonLabel: "More",
       buttonUrl: "https://legalsite.co/",
       $color: ({theme}) => theme.colors.text.textPurple,
@@ -66,7 +66,9 @@ const SectionTile = () => {
             <TileImage src={title.image} alt={`Picture ${index + 1}`} />
             <div>
               <a href={title.buttonUrl} target="_blank" rel="noopener noreferrer">
-                <ButtonWhite buttonContent={title.buttonLabel} />
+                <ButtonWhite 
+                  buttonContent={title.buttonLabel} 
+                  width="107px"/>
               </a>
             </div>
           </Tile>
@@ -74,7 +76,7 @@ const SectionTile = () => {
       </StyledSection>
       <TextImage src={group23SVG} />
     </div>
-  );
+);
 };
 
-export default SectionTile;
+export default SectionTiles;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   background-color: ${({ theme }) => theme.colors.background.backgroundWhite};
   color: ${({ theme }) => theme.colors.text.textTeal};
-  width: 107px;
+  width: ${({ width }) => width || "auto"};
   height: 45px;
   border-radius: 32.5px;
   border: solid 1px ${({ theme }) => theme.colors.border.borderBlue};
@@ -24,6 +24,11 @@ export const Button = styled.button`
   }
 `;
 
-const ButtonWhite = ({ buttonContent }) => <Button>{buttonContent}</Button>;
-
+const ButtonWhite = ({ buttonContent, width }) => {
+  return (
+    <Button width={width}>
+      {buttonContent}
+    </Button>
+  );
+};
 export default ButtonWhite;
