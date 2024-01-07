@@ -7,7 +7,7 @@ import {
   TileImage,
   TextImage,
 } from "./styled";
-import ButtonWhite from "../../../features/Buttons/ButtonWhite";
+import ButtonWhite from "../../Buttons/ButtonWhite";
 import frame11SVG from "../../images/frame11.svg";
 import frame12SVG from "../../images/frame12.svg";
 import frame13SVG from "../../images/frame13.svg";

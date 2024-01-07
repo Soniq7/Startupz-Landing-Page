@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { GlobalStyle } from "./GlobalStyle";
+import { GlobalStyle } from "./core/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./common/theme";
+import { theme } from "./core/theme";
 import App from "./core/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

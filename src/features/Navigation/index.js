@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
-import ButtonWhite from "../Buttons/ButtonWhite";
+import ButtonWhite from "../../common/Buttons/ButtonWhite";
 import { StyledNav, Wrap, LogoImage, StyledScrollLink } from "./styled";
 import logoSVG from "../../common/images/logo.svg";
 
